@@ -1,20 +1,23 @@
 function App() {
 	return (
 		<div>
-			<Person
+			<Tweet
 				name="Hava Feder"
-				age={23}
-				hobbies={["watching tik tok", "annoying my cat", "booking airbnbs"]}
+				username="havafeder"
+				date={new Date().toDateString()}
+				message="HAHA"
 			/>
-			<Person
-				name="Selena Gomez"
-				age={30}
-				hobbies={["singing", "making tik toks", "acting"]}
+			<Tweet
+				name="Marv Feder"
+				username="maaarrvvvv"
+				date={new Date().toDateString()}
+				message="MEOW"
 			/>
-			<Person
-				name="Lisa Kudrow"
-				age={50}
-				hobbies={["being famous", "being blonde", "being rude"]}
+			<Tweet
+				name="Fergus Feder"
+				username="fergussssss"
+				date={new Date().toDateString()}
+				message="MEOWWWWWWWWWWWWW"
 			/>
 		</div>
 	);

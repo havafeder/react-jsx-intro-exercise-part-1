@@ -1,1 +1,1 @@
-ReactDOM.render(<App />, document.getElementById("root"));
+reactDOM.render(<App />, document.getElementById("root"));
